@@ -9,36 +9,48 @@ export type ThemeColors = {
   background: string;
   /** Cards, rows and the tab bar. */
   surface: string;
+  /** Inputs, set rows and other nested surfaces inside cards. */
+  surfaceAlt: string;
   text: string;
   textSecondary: string;
   /** Icons and hints only; not for body text. */
   textTertiary: string;
   border: string;
   danger: string;
+  /** Completed sets, PRs, goals reached. */
+  success: string;
+  /** Streaks, rest timer. */
+  warning: string;
 };
 
 export const lightColors: ThemeColors = {
-  primary: '#1D5BD8',
+  primary: '#E8590C',
   onPrimary: '#FFFFFF',
-  primaryContainer: '#E3ECFD',
-  background: '#F3F6FC',
+  primaryContainer: '#FFE8D9',
+  background: '#F6F5F3',
   surface: '#FFFFFF',
-  text: '#0E1B33',
-  textSecondary: '#4B5B76',
-  textTertiary: '#8593AB',
-  border: '#D5DEEC',
+  surfaceAlt: '#F1EFEC',
+  text: '#1A1714',
+  textSecondary: '#5C554E',
+  textTertiary: '#9A928A',
+  border: '#E4E0DB',
   danger: '#C62828',
+  success: '#2E9D5B',
+  warning: '#D99A00',
 };
 
 export const darkColors: ThemeColors = {
-  primary: '#6EA8FF',
-  onPrimary: '#0A1222',
-  primaryContainer: '#1B3566',
-  background: '#0A1222',
-  surface: '#131F36',
-  text: '#E7EEFA',
-  textSecondary: '#A3B2CC',
-  textTertiary: '#6F7F9C',
-  border: '#24365A',
+  primary: '#FF7A33',
+  onPrimary: '#1A0C04',
+  primaryContainer: '#4A2512',
+  background: '#121110',
+  surface: '#1D1B19',
+  surfaceAlt: '#282522',
+  text: '#F4F1EE',
+  textSecondary: '#BDB5AD',
+  textTertiary: '#7E766F',
+  border: '#33302C',
   danger: '#FF8A80',
+  success: '#4CC97F',
+  warning: '#F2B92E',
 };

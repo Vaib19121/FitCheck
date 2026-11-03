@@ -1,0 +1,241 @@
+{
+  "sha": "7455efae41b330c265e7cd4b78dfa848e7ce5ebd",
+  "langs": [
+    "en"
+  ],
+  "total": 1324,
+  "bodyParts": [
+    {
+      "value": "upper arms",
+      "count": 292
+    },
+    {
+      "value": "upper legs",
+      "count": 227
+    },
+    {
+      "value": "back",
+      "count": 203
+    },
+    {
+      "value": "waist",
+      "count": 169
+    },
+    {
+      "value": "chest",
+      "count": 163
+    },
+    {
+      "value": "shoulders",
+      "count": 143
+    },
+    {
+      "value": "lower legs",
+      "count": 59
+    },
+    {
+      "value": "lower arms",
+      "count": 37
+    },
+    {
+      "value": "cardio",
+      "count": 29
+    },
+    {
+      "value": "neck",
+      "count": 2
+    }
+  ],
+  "equipment": [
+    {
+      "value": "body weight",
+      "count": 325
+    },
+    {
+      "value": "dumbbell",
+      "count": 294
+    },
+    {
+      "value": "cable",
+      "count": 157
+    },
+    {
+      "value": "barbell",
+      "count": 154
+    },
+    {
+      "value": "leverage machine",
+      "count": 81
+    },
+    {
+      "value": "band",
+      "count": 54
+    },
+    {
+      "value": "smith machine",
+      "count": 48
+    },
+    {
+      "value": "kettlebell",
+      "count": 41
+    },
+    {
+      "value": "weighted",
+      "count": 36
+    },
+    {
+      "value": "stability ball",
+      "count": 28
+    },
+    {
+      "value": "ez barbell",
+      "count": 23
+    },
+    {
+      "value": "assisted",
+      "count": 15
+    },
+    {
+      "value": "sled machine",
+      "count": 15
+    },
+    {
+      "value": "medicine ball",
+      "count": 13
+    },
+    {
+      "value": "rope",
+      "count": 10
+    },
+    {
+      "value": "roller",
+      "count": 8
+    },
+    {
+      "value": "resistance band",
+      "count": 7
+    },
+    {
+      "value": "bosu ball",
+      "count": 3
+    },
+    {
+      "value": "olympic barbell",
+      "count": 2
+    },
+    {
+      "value": "wheel roller",
+      "count": 2
+    },
+    {
+      "value": "upper body ergometer",
+      "count": 1
+    },
+    {
+      "value": "skierg machine",
+      "count": 1
+    },
+    {
+      "value": "hammer",
+      "count": 1
+    },
+    {
+      "value": "stationary bike",
+      "count": 1
+    },
+    {
+      "value": "tire",
+      "count": 1
+    },
+    {
+      "value": "trap bar",
+      "count": 1
+    },
+    {
+      "value": "elliptical machine",
+      "count": 1
+    },
+    {
+      "value": "stepmill machine",
+      "count": 1
+    }
+  ],
+  "targets": [
+    {
+      "value": "abs",
+      "count": 169
+    },
+    {
+      "value": "pectorals",
+      "count": 158
+    },
+    {
+      "value": "biceps",
+      "count": 151
+    },
+    {
+      "value": "glutes",
+      "count": 144
+    },
+    {
+      "value": "delts",
+      "count": 143
+    },
+    {
+      "value": "triceps",
+      "count": 141
+    },
+    {
+      "value": "upper back",
+      "count": 88
+    },
+    {
+      "value": "lats",
+      "count": 81
+    },
+    {
+      "value": "calves",
+      "count": 59
+    },
+    {
+      "value": "quads",
+      "count": 44
+    },
+    {
+      "value": "forearms",
+      "count": 37
+    },
+    {
+      "value": "cardiovascular system",
+      "count": 29
+    },
+    {
+      "value": "hamstrings",
+      "count": 28
+    },
+    {
+      "value": "spine",
+      "count": 19
+    },
+    {
+      "value": "traps",
+      "count": 15
+    },
+    {
+      "value": "adductors",
+      "count": 6
+    },
+    {
+      "value": "serratus anterior",
+      "count": 5
+    },
+    {
+      "value": "abductors",
+      "count": 5
+    },
+    {
+      "value": "levator scapulae",
+      "count": 2
+    }
+  ]
+}
