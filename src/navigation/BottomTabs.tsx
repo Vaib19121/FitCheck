@@ -47,7 +47,7 @@ export function BottomTabs() {
       <FloatingTabBar
         {...props}
         onCenterPress={() => navigation.navigate('Create')}
-        centerAccessibilityLabel="Create new item"
+        centerAccessibilityLabel="Start workout"
       />
     ),
     [navigation],

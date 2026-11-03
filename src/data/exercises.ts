@@ -1,4 +1,6 @@
-import rawExercises from './exercises.json';
+// Not "./exercises.json": Metro resolves .json before .ts, so that name would
+// shadow this module for every `import ... from '../data/exercises'`.
+import rawExercises from './catalog.json';
 import meta from './meta.json';
 import { BodyPart, Exercise, ExerciseFilter } from './types';
 

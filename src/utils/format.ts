@@ -73,3 +73,13 @@ export function formatVolume(kg: number, unit: WeightUnit) {
 export function titleCase(s: string) {
   return s.replace(/(^|\s)([a-z])/g, (_, p, c) => p + c.toUpperCase());
 }
+
+/** "Oct 27" */
+export function formatShortDate(date: Date | string | number) {
+  return new Date(date).toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+}
+
+/** Single-letter weekday: "M", "T", ... */
+export function formatWeekdayLetter(date: Date | string | number) {
+  return new Date(date).toLocaleDateString(undefined, { weekday: 'narrow' });
+}

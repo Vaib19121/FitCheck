@@ -21,6 +21,10 @@ export type ThemeColors = {
   success: string;
   /** Streaks, rest timer. */
   warning: string;
+  /** Single-series chart marks (validated vs. surface for each mode). */
+  chart: string;
+  /** Chart track / gridlines: one step off the surface. */
+  chartGrid: string;
 };
 
 export const lightColors: ThemeColors = {
@@ -37,6 +41,8 @@ export const lightColors: ThemeColors = {
   danger: '#C62828',
   success: '#2E9D5B',
   warning: '#D99A00',
+  chart: '#E8590C',
+  chartGrid: '#ECE9E5',
 };
 
 export const darkColors: ThemeColors = {
@@ -53,4 +59,6 @@ export const darkColors: ThemeColors = {
   danger: '#FF8A80',
   success: '#4CC97F',
   warning: '#F2B92E',
+  chart: '#E8650F',
+  chartGrid: '#2B2825',
 };

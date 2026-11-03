@@ -9,9 +9,17 @@ export type BottomTabParamList = {
 };
 
 export type RootStackParamList = {
+  Onboarding: undefined;
   Tabs: NavigatorScreenParams<BottomTabParamList>;
-  Details: { id: string };
+  ExerciseDetail: { id: string };
+  /** "Start workout" sheet opened by the tab bar's center button. */
   Create: undefined;
+  RoutineEditor: { id: string };
+  ExercisePicker: { target: 'session' } | { target: 'routine'; routineId: string };
+  AddToRoutine: { exerciseId: string };
+  ActiveWorkout: undefined;
+  WorkoutSummary: { sessionId: string };
+  SessionDetail: { sessionId: string };
 };
 
 export type RootStackScreenProps<T extends keyof RootStackParamList> =

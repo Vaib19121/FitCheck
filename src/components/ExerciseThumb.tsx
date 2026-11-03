@@ -5,7 +5,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import { Exercise, mediaUrl } from '../data/exercises';
 import { makeStyles, useTheme } from '../theme';
 
-/** Dataset media terms: never display above the source resolution. */
+/** Thumbnails are list-sized; the large demo lives in ExerciseMedia. */
 export const MAX_MEDIA_SIZE = 180;
 
 type Props = {

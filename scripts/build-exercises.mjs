@@ -62,7 +62,8 @@ const meta = {
 
 await mkdir(outDir, { recursive: true });
 const json = JSON.stringify(exercises);
-await writeFile(join(outDir, 'exercises.json'), json);
+// Must not be named exercises.json (would shadow src/data/exercises.ts in Metro).
+await writeFile(join(outDir, 'catalog.json'), json);
 await writeFile(join(outDir, 'meta.json'), JSON.stringify(meta, null, 2));
 
 console.log(
