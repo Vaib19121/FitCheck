@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_background">#1D1D1B</color>
+    <!-- Keep in sync with lightColors.background in src/theme/colors.ts -->
+    <color name="app_background">#F6F5F3</color>
+</resources>

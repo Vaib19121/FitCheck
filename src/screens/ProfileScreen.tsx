@@ -20,8 +20,6 @@ import {
   WeeklyTargetPicker,
 } from '../components/ProfileFields';
 import { EQUIPMENT_GROUPS } from '../data/equipment';
-import { MEDIA_ATTRIBUTION } from '../data/exercises';
-import meta from '../data/meta.json';
 import {
   GOAL_LABELS,
   LEVEL_LABELS,
@@ -30,8 +28,6 @@ import {
 import { resetAllData } from '../store/resetAll';
 import { fonts, makeStyles, spacing, useTheme } from '../theme';
 
-const DATASET_URL = 'https://github.com/hasaneyldrm/exercises-dataset';
-const GYM_VISUAL_URL = 'https://gymvisual.com/';
 
 type Section = 'goal' | 'level' | 'equipment' | null;
 
@@ -143,19 +139,6 @@ export function ProfileScreen() {
         </View>
       </Card>
 
-      <SectionHeader title="About & credits" />
-      <Card style={styles.credits}>
-        <Text style={styles.body}>
-          Exercise data: {meta.total.toLocaleString()} exercises from the
-          open exercises-dataset (MIT License).
-        </Text>
-        <LinkText url={DATASET_URL} label="github.com/hasaneyldrm/exercises-dataset" />
-        <Text style={styles.body}>
-          Exercise images and animations {MEDIA_ATTRIBUTION.split(' — ')[0]},
-          used with attribution.
-        </Text>
-        <LinkText url={GYM_VISUAL_URL} label="gymvisual.com" />
-      </Card>
 
       <Pressable
         onPress={confirmReset}
